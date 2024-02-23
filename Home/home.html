@@ -2,33 +2,39 @@
 <html>
 <head>
 <title>Map Construct KC </title>
+<link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  
+  body, html {
+    height: 10%;
+    line-height: 1.8;
+  }
+  
+  
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
 
-/* Full height image header */
-
-
-.w3-bar .w3-button {
-  padding: 16px;
-}
-</style>
+  
+  </style>
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></a>
+  <a class="navbar-brand" href="#"><img src="C:\Users\karaf\bootcamp\mapconstructkc\assets\LOGO.jpg" alt="Logo" ></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,27 +43,49 @@ body, html {
       <li class="nav-item active">
         <a class="nav-link" href="#">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Residential 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Full Rehabs</a>
+          <a class="dropdown-item" href="#">Investment Property Analysis</a>
+          <a class="dropdown-item" href="#">Kitchen</a>
+          <a class="dropdown-item" href="#">Bathroom</a>
+          <a class="dropdown-item" href="#">Room Addition</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Commerical 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\About\about.html">About Us</a>
+          <a class="dropdown-item" href="#">Hotel Project Improvement Plans</a>
+          <a class="dropdown-item" href="#">Delinquent Sales Tax Audition</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Info
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">About </a>
+          <a class="dropdown-item" href="#">Gallery</a>
+          <a class="dropdown-item" href="#"> Blog</a>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">Permits and City Code Management</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Available Homes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Payment Portal</a>
+        <a class="nav-link" href="#">Contact Us</a>
       </li>
+      <li class="nav-item">
+        <a class="nav
       <li class="nav-item">
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -67,39 +95,20 @@ body, html {
     </ul>
   </div>
 </nav>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+   
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">BLOG</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">AVAILABLE HOMES</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PAYMENT PORTAL</a>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
-</nav>
 
 <!-- Header with full-height image -->
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+<div id="carousel-item" class="carousel slide" data-ride="carousel" data-interval="2500">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="C:\Users\karaf\bootcamp\mapconstructkc\assets\image-1-lions.jpg" class="d-block w-100" alt="Slide 1">
+      <img src="C:\Users\karaf\bootcamp\mapconstructkc\assets\IMG_0438.JPG" class="d-block w-100" alt="Slide 1">
     </div>
     <div class="carousel-item">
-      <img src="C:\Users\karaf\bootcamp\mapconstructkc\assets\image-2-tigers.jpg" class="d-block w-100" alt="Slide 2">
+      <img src="C:\Users\karaf\bootcamp\mapconstructkc\assets\image-1-slideshow.jpg" class="d-block w-100" alt="Slide 2">
     </div>
     <div class="carousel-item">
-      <img src="C:\Users\karaf\bootcamp\mapconstructkc\assets\image-3-bears.jpg" class="d-block w-100" alt="Slide 3">
+      <img src="C:\Users\karaf\bootcamp\mapconstructkc\assets\IMG_1038.JPG" class="d-block w-100" alt="Slide 3">
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -109,7 +118,7 @@ body, html {
 <header class="bgimg-1 w3 w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
   </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:36px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
@@ -298,7 +307,6 @@ body, html {
   </div>
 </div>
 
-
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
@@ -306,13 +314,15 @@ body, html {
   <div style="margin-top:48px">
     <style> .w3-container { text-align: center; } </style> <div class="w3-container" style="margin-top:48px"> <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle">Chicago, US</span></p> <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle">Phone: +00 151515</span></p> <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle">Email: <a href="mailto:mail@mail.com">mail@mail.com</a></span></p> </div>
     <br>
-    <style> .w3-container { text-align: center; } .w3-input { width: 40%; margin: 0 auto; display: block; } </style> <div class="w3-container" style="padding:128px 16px"> <form action="/action\_page.php" target="\_blank"> <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p> <p><input class="w3-input w3-border" type="email" placeholder="Email" required name="Email"></p> <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p> <p><textarea class="w3-input w3-border" placeholder="Message" required name="Message" style="height:200px"></textarea></p> <p> <button class="w3-button w3-black" type="submit"> <i class="fa fa-paper-plane"></i> SEND MESSAGE </button> </p> </form> </div>
-  
+    <style> .w3-container { text-align: center; } .w3-input { width: 40%; margin: 0 auto; display: block; } </style> <div class="w3-container" style="padding:0px 16px"> <form action="/action\_page.php" target="\_blank"> <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p> <p><input class="w3-input w3-border" type="email" placeholder="Email" required name="Email"></p> <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p> <p><textarea class="w3-input w3-border" placeholder="Message" required name="Message" style="height:200px"></textarea></p> <p> <button class="w3-button w3-black" type="submit"> <i class="fa fa-paper-plane"></i> SEND MESSAGE </button> </p> </form> </div>
+</div>
+
     <!-- Image of location/map -->
     <img src="" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
   </div>
 </div>
-
+<iframe src="https://console.dialogflow.com/api-client/demo/embedded/4e1e86d6-753f-462f-a3f0-d976b05d87ab"
+        style="width: 350px; height: 500px;"></iframe>
 <footer class="w3-center w3-black w3-padding-64"> <div class="row"> <div class="col-lg-3 col-md-6 col-sm-6"> <h4>logoipsum</h4>
    <p>Lorem Ipsum is simply dummy text.</p> </div>
     <div class="col-lg-3 col-md-6 col-sm-6"> <h4>Contact Us</h4> <p>info@gmail.com</p> <p>+91 98765 43210</p> </div>
@@ -361,6 +371,6 @@ function w3_close() {
 </script>
 
 </body>
-
+<script src="home.js"></script>
 
 </html>
