@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://cdn.jsdelivr.net/npm/openai/dist/openai.min.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -44,45 +45,45 @@
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="C:\Users\karaf\bootcamp\mapconstructkc\Residential\home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Residential 
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Full Rehabs</a>
-          <a class="dropdown-item" href="#">Investment Property Analysis</a>
-          <a class="dropdown-item" href="#">Kitchen</a>
-          <a class="dropdown-item" href="#">Bathroom</a>
-          <a class="dropdown-item" href="#">Room Addition</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Full Rehabs\home.html">Full Rehabs</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Investment Property Analysis\home.html">Investment Property Analysis</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Kitchen\home.html">Kitchen</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Bathroom\home.html">Bathroom</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Room Addition\home.html">Room Addition</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="C:\Users\karaf\bootcamp\mapconstructkc\Commerical\home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Commerical 
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\About\about.html">About Us</a>
-          <a class="dropdown-item" href="#">Hotel Project Improvement Plans</a>
-          <a class="dropdown-item" href="#">Delinquent Sales Tax Audition</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Hotel Project Improvement Plans\home.html">Hotel Project Improvement Plans</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Delinquent Sales Tax Audition\home.html">Delinquent Sales Tax Audition</a>
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="C:\Users\karaf\bootcamp\mapconstructkc\Info\home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Info
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">About </a>
-          <a class="dropdown-item" href="#">Gallery</a>
-          <a class="dropdown-item" href="#"> Blog</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\About\about.html">About </a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Gallery\home.html">Gallery</a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Blog\home.html"> Blog</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Permits and City Code Management</a>
+        <a class="nav-link" href="C:\Users\karaf\bootcamp\mapconstructkc\Permits and City Code Management\home.html">Permits and City Code Management</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Available Homes</a>
+        <a class="nav-link" href="C:\Users\karaf\bootcamp\mapconstructkc\Available Homes\home.html">Available Homes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="C:\Users\karaf\bootcamp\mapconstructkc\Contact US\home.html">Contact Us</a>
       </li>
       <li class="nav-item">
         <a class="nav
@@ -97,6 +98,19 @@
 </nav>
    
 
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">BLOG</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">AVAILABLE HOMES</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PAYMENT PORTAL</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+</nav>
 
 <!-- Header with full-height image -->
 <div id="carousel-item" class="carousel slide" data-ride="carousel" data-interval="2500">
@@ -321,10 +335,9 @@
     <img src="" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
   </div>
 </div>
-<iframe src="https://console.dialogflow.com/api-client/demo/embedded/4e1e86d6-753f-462f-a3f0-d976b05d87ab"
-        style="width: 350px; height: 500px;"></iframe>
-<footer class="w3-center w3-black w3-padding-64"> <div class="row"> <div class="col-lg-3 col-md-6 col-sm-6"> <h4>logoipsum</h4>
-   <p>Lorem Ipsum is simply dummy text.</p> </div>
+
+<footer class="w3-center w3-black w3-padding-64"> <div class="row"> <div class="col-lg-3 col-md-6 col-sm-6"> <h4>Map Construct KC</h4>
+   <p>800 W 75th St, Kansas City, MO 64114</p> </div>
     <div class="col-lg-3 col-md-6 col-sm-6"> <h4>Contact Us</h4> <p>info@gmail.com</p> <p>+91 98765 43210</p> </div>
      <div class="col-lg-3 col-md-6 col-sm-6"> <h4></h4> <ul class="list-unstyled">
        <li><a href="#">HOME</a></li>
@@ -368,9 +381,12 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+<script src="home.js"></script>
+
 </script>
 
 </body>
-<script src="home.js"></script>
+
+
 
 </html>
