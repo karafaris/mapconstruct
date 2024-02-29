@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Map Construct KC </title>
-<link rel="stylesheet" href="Blog\style.css">
+<link rel="stylesheet" href="Blog/style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -136,10 +136,16 @@
   
 </header>
 <main>
-  <h2>Latest Posts</h2>
-  <ul id="post-list"></ul>
+  
+  <div class="post-container">
+    <div id="post-list-container">
+      <ul id="post-list">
+        <!-- Blog posts will be added dynamically here -->
+        
+      </ul>
+    </div>
+  </div>
 </main>
-
 
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
@@ -225,9 +231,10 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
-<script src="Blog\home.js"></script>
+
 
 </script>
+<script src="./home.js"></script>
 
 </body>
 
