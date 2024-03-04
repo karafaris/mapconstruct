@@ -2,6 +2,7 @@
   "name": "my-nodejs-project",
   "version": "1.0.0",
   "description": "A description of my Node.js project.",
+  "type": "module",
   "main": "openai-test.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,8 @@
     "example"
   ],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.28.4"
+  }
 }
-  
