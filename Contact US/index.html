@@ -146,7 +146,14 @@
 
   
 </header>
+<button id="back-button">Back</button>
+<script>
+    const backButton = document.getElementById('back-button');
 
+    backButton.addEventListener('click', () => {
+        window.history.back();
+    });
+</script>
 
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">

@@ -146,6 +146,15 @@
   
 </header>
 
+<button id="back-button">Back</button>
+<script>
+    const backButton = document.getElementById('back-button');
+
+    backButton.addEventListener('click', () => {
+        window.history.back();
+    });
+</script>
+
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="services">
   <h3 class="w3-center">OUR RESIDENTIAL SERVICES</h3>

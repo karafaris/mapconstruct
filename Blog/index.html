@@ -142,7 +142,15 @@
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
+  
+  <button id="back-button">Back</button>
+  <script>
+      const backButton = document.getElementById('back-button');
 
+      backButton.addEventListener('click', () => {
+          window.history.back();
+      });
+  </script>
   
 </header>
 <main>
