@@ -22,8 +22,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
 <style>
 
   body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
@@ -37,67 +39,23 @@
   </style>
 </head>
 <body>
+  <div id="root"></div>
 
-<!-- Navbar (sit on top) -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><img src="assets\LOGO.jpg" alt="Logo" ></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="Residential\index.html" id="navbarDropdownResidential" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Residential 
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownResidential">
-          <a class="dropdown-item" href="FullRehabs\index.html">Full Rehabs</a>
-          <a class="dropdown-item" href="InvestmentPropertyAnalysis\index.html">Investment Property Analysis</a>
-          <a class="dropdown-item" href="Kitchen\index.html">Kitchen</a>
-          <a class="dropdown-item" href="Bathroom\index.html">Bathroom</a>
-          <a class="dropdown-item" href="RoomAddition\index.html">Room Addition</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCommercial" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Commercial 
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownCommercial">
-          <a class="dropdown-item" href="HotelProjectImprovementPlans\index.html">Hotel Project Improvement Plans</a>
-          <a class="dropdown-item" href="DelinquentSalesTaxAudition\index.html">Delinquent Sales Tax Audition</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInfo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Info
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownInfo">
-          <a class="dropdown-item" href="About\index.html">About Us </a>
-          <a class="dropdown-item" href="Gallery\index.html">Gallery</a>
-          <a class="dropdown-item" href="Blog\index.html"> Blog</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="PermitsandCityCodeManagement\index.html">Permits and City Code Management</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="AvailableHomes\index.html">Available Homes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="ContactUS\index.html">Contact Us</a>
-      </li>
-      <li class="nav-item">
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <!-- Load React -->
+  <!-- Note: When you deploy your app, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17.0.2/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load the React component -->
+  <script src="/my-app/src/App.js"></script> <!-- Make sure to replace this path with the correct path to your React application's JavaScript bundle -->
+
+  <!-- Initialize the React app -->
+  <script>
+    ReactDOM.render(
+      React.createElement(App),
+      document.getElementById('root')
+    );
+  </script>
 
 
 <!-- Sidebar on small screens when clicking the menu icon -->
