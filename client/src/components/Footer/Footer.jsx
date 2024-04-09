@@ -64,7 +64,7 @@ export const Footer = () => {
         </Box>
         <Box width={['100%', '50%', '25%']} mb={8}>
           <Heading as="h4" size="md" mb={2}>Contact Us</Heading>
-          <Text>info@mapconstructkc.com</Text>
+          <Text>t.paul@mapconstructkc.com</Text>
           <Text>(512) 994-9027</Text>
         </Box>
         <Box width={['100%', '50%', '25%']} mb={8}>
