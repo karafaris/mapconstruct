@@ -101,7 +101,7 @@ export const Footer = () => {
         <Link href="https://www.twitter.com" isExternal mx={2}><Icon as={FaTwitter} w={6} h={6} /></Link>
         <Link href="https://www.linkedin.com" isExternal mx={2}><Icon as={FaLinkedin} w={6} h={6} /></Link>
       </Flex>
-      <Text mt={4}>© MAP Construct KC, LLC</Text>
+      <Text mt={4}>© MAP Construct, LLC</Text>
     </Box>
   );
 };

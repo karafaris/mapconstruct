@@ -55,7 +55,7 @@ mapconstructkc
 cd mapconstructkc
 # Follow the instructions in the README.md to run development server.
 Contributing
-Contributions, bug reports, and feature requests are welcome! please email info@mapconstructkc.com
+Contributions, bug reports, and feature requests are welcome! please email karafaris@icloud.com
 
 Feedback and Contact
 If you have any suggestions, questions, or want to discuss these projects, please reach out:

@@ -18,7 +18,7 @@ export const PaymentPortal = () => {
     return (
         <Box>
             <Heading as="h1" size="xl" mb={4}>
-                MapConstruc Payment Gateway
+                MapConstruct Payment Gateway
             </Heading>
             <Text mb={8}>Please complete your payment:</Text>
             <Button colorScheme="blue" onClick={handleCheckoutRedirect}>
