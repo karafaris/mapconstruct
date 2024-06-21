@@ -16,15 +16,15 @@ export const ImageCarousel = () => {
   const slides = [
     {
       img: image1,
-      alt: 'Slide 1',
+      alt: 'bobcat-working-on-digging-mapconstructkc',
     },
     {
       img: image2,
-      alt: 'Slide 2',
+      alt: 'house-rehab-mapconstructkc',
     },
     {
       img: image3,
-      alt: 'Slide 3',
+      alt: 'house-rehab-outsideview-mapconstructkc',
     },
   ];
 

@@ -14,7 +14,6 @@ export const FullRehabs = () => {
           <Text mb={4}>
             As a leading contractor in Kansas City specializing in remodeling, we prioritize delivering the pinnacle of customer satisfaction. At MAP Construct KC, we are renowned for our commitment to crafting and revamping homes with unwavering focus on ensuring our customers' utmost contentment. We meticulously attend to every aspect of the project, meticulously guiding you through the cost estimation phase to ensuring your absolute delight with every facet of your renovated space. Employing top-tier materials and employing cutting-edge processes, we guarantee that your renovation exudes a quality that stands the test of time.
           </Text>
-          <CustomButton children={'Learn More'} onClick={() => console.log('Button clicked')}/>
         </Box>
         <Box flex={1}>
           <Image

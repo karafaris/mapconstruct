@@ -30,7 +30,7 @@ export const DelinquentTax= () => {
               <br /><br />
               By partnering with MAP Construct KC for your Delinquent Sales Tax Audit needs, you can trust that your business will receive personalized attention and expert assistance every step of the way. Contact us today to learn more about how we can help navigate the complexities of sales tax audits and safeguard the financial well-being of your business.
             </Text>
-            <CustomButton children={'Learn More'} onClick={() => console.log('Button clicked')}/>
+        
           </Box>
           <Box flex={1}>
             <Image

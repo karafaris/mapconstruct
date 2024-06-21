@@ -48,13 +48,13 @@ export const Footer = () => {
         <Box width={['100%', '50%', '25%']} mb={8}>
           <Heading as="h4" size="md" mb={2}>Map Construct KC</Heading>
           <Text>
-            <Link href="https://www.google.com/maps/place/800+W+75th+St,+Kansas+City,+MO+64114" target="_blank" isExternal>
-              800 W 75th St, Kansas City, MO 64114
-            </Link>
-          </Text>
+          <a href="https://www.google.com/maps/place/800+W+75th+St,+Kansas+City,+MO+64114" target="_blank" rel="noopener noreferrer">
+            800 W 75th St, Kansas City, MO 64114
+          </a>
+        </Text>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.9947855522455!2d-94.60138572405863!3d38.992615371703856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0efecd9c0a4c9%3A0x7c024479f12b6582!2sMAP%20Construct!5e0!3m2!1sen!2sus!4v1708709649421!5m2!1sen!2sus"
-            width="200"
+            width="500"
             height="150"
             style={{ border: 0 }}
             allowFullScreen
@@ -64,9 +64,14 @@ export const Footer = () => {
         </Box>
         <Box width={['100%', '50%', '25%']} mb={8}>
           <Heading as="h4" size="md" mb={2}>Contact Us</Heading>
-          <Text>t.paul@mapconstructkc.com</Text>
-          <Text>(512) 994-9027</Text>
+          <Text>
+            <a href="mailto:t.paul@mapconstructkc.com">t.paul@mapconstructkc.com</a>
+          </Text>
+          <Text>
+            <a href="tel:+15129949027">(512) 994-9027</a>
+          </Text>
         </Box>
+
         <Box width={['100%', '50%', '25%']} mb={8}>
           <UnorderedList styleType="none">
           <ListItem>

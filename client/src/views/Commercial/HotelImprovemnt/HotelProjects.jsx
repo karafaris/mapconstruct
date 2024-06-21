@@ -30,7 +30,7 @@ export const HotelProjectComponent= () => {
               <br /><br />
               By entrusting your Hotel Project Improvement Plans to MAP Construct KC, you can rest assured that your property will undergo a comprehensive transformation tailored to meet your specific goals, budget, and timeline. Our commitment to excellence and attention to detail ensure that every aspect of your hotel is optimized to exceed guest expectations and drive long-term success in the competitive hospitality industry. Contact us today to discuss how we can elevate your hotel to new heights of excellence.
             </Text>
-            <CustomButton children={'Learn More'} onClick={() => console.log('Button clicked')}/>
+            
           </Box>
           <Box flex={1}>
             <Image

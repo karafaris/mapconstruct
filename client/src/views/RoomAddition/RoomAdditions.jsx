@@ -21,7 +21,6 @@ export const RoomAddition = () => {
           through a thoughtfully planned addition project. Our team excels at evaluating your existing space and crafting additions 
           that seamlessly integrate with the existing structure of your home.
           </Text>
-          <CustomButton children={'Learn More'} onClick={() => console.log('Button clicked')}/>
         </Box>
         <Box flex={1}>
           <Image

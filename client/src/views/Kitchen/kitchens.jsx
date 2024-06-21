@@ -21,7 +21,6 @@ export const Kitchens = () => {
             exceptional results, ensuring your vision is brought to life with precision and
             expertise.
           </Text>
-          <CustomButton children={'Learn More'} onClick={() => console.log('Button clicked')}/>
         </Box>
         <Box flex={1}>
           <Image

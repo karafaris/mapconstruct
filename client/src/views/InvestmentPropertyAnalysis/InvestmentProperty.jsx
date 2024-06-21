@@ -14,7 +14,7 @@ export const InvestmentPropertyAnalysis = () => {
             <Text mb={4}>
               At MAP Construct KC, our Investment Property Analysis service provides comprehensive insights and evaluations essential for informed decision-making in real estate investment. Our analysis encompasses a thorough assessment of various factors crucial to the profitability and viability of a potential investment property. This includes an in-depth examination of market trends, property condition, rental income potential, expenses, projected cash flow, and potential return on investment. We utilize advanced analytical tools and methodologies to provide accurate projections and recommendations tailored to our clients' investment goals and preferences. With our expertise and attention to detail, we empower investors to make sound investment decisions and maximize their returns in the dynamic Kansas City real estate market.
             </Text>
-            <CustomButton children={'Learn More'} onClick={() => console.log('Button clicked')}/>
+            
           </Box>
           <Box flex={1}>
             <Image

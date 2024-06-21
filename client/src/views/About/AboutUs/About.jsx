@@ -12,7 +12,7 @@ export const AboutUs = () => {
         <Stack direction={['column', 'row']} spacing={8} alignItems="center">
           <Box flex={2}>
             <Heading as="h3" size="lg" mb={4}>
-              ABOUT MAP CONSTRUCT KC, LLC
+              ABOUT MAP CONSTRUCT, LLC
             </Heading>
             <Text mb={4}>
               At MAP Construct KC, we are driven by a steadfast commitment to integrity, openness, excellence, and community engagement. With a collective experience spanning over 25 years in the construction industry, our team brings a wealth of knowledge and expertise to every project we undertake. We take immense pride in delivering superior service at competitive rates, ensuring that our clients' expectations are not only met but exceeded.
@@ -23,7 +23,7 @@ export const AboutUs = () => {
               <br /><br />
               So, if you're ready to turn your vision into reality, trust MAP Construct KC to be your partner every step of the way. Together, let's build a brighter future for our community and create spaces that stand as a testament to our shared values and aspirations.
             </Text>
-            <CustomButton children={'Learn More'} onClick={() => console.log('Button clicked')} />
+            
           </Box>
           <Box flex={1}>
             <Image

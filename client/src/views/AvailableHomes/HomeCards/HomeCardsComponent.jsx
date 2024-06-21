@@ -7,7 +7,7 @@ export const AvailableHomes = () => {
     {
       address: 'Address Here',
       details: 'Additional Property Details Price, extra.',
-      image: '../../../../public/assets/images/samplehouse.png',
+      image: '../../../../public/assets/images/samplehouse.png', 
       alt: 'Full Rehab',
     },
     {

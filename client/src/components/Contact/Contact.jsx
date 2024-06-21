@@ -14,7 +14,7 @@ export const Contact = () => {
       <Stack spacing={8} alignItems="center">
         <Stack direction="row" alignItems="center" spacing={4}>
           <Icon as={FaMapMarker} boxSize={8} mr={4} />
-          <Text>Kansas City, Missouri</Text>
+          <Text>800 W 75th St, Kansas City, MO 64114</Text>
         </Stack>
         <Stack direction="row" alignItems="center" spacing={4}>
           <Icon as={FaPhone} boxSize={8} mr={4} />
