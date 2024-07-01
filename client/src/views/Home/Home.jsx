@@ -19,7 +19,7 @@ export const Home = ({ Component, Component2, Component3, componentBehavior }) =
     /* Components requiring dynamic behavior are here */
     <Flex flexDirection='column'>
       <Navbar />
-      <Image src={bannerImage} alt="Banner Image" height="5%" />
+      <Image src={bannerImage} alt="Banner Image" maxHeight="80vh"  />
       {Component}
       {Component2 ? Component2 : null}
       {componentBehavior === "RenderTestimonials" ? <CustomerReviews /> : null}
